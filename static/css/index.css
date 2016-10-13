@@ -1,0 +1,72 @@
+.container-boss {
+  background-color: #FFFF47;
+  padding: 40px 40px 40px 40px;
+  margin-top: 5%;
+}
+
+.location-block {
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  margin-right: 40%;
+  margin-left: -7%;
+}
+
+.location-word {
+  font-family: 'PT Serif', serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.weather-block {
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: -7%;
+}
+
+.weather-word {
+  font-family:  'PT Serif', serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wind-block {
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  margin-top: 5%;
+  margin-right: 40%;
+  margin-left: -7%;
+}
+
+.wind-word {
+  font-family:  'PT Serif', serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.not-location { 
+  font-size: 20px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.F-to-C {
+  font-size: 20px;
+  margin-left: 43%;
+  margin-top: 5px;
+}
+
+.learn-more { 
+  font-size: 20px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.copyright {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
