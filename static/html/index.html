@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="index.js"></script>       
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/darkskyapp/skycons/master/skycons.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
@@ -25,9 +26,14 @@
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="weather-block">
-          <p class="weather-word" id="weather">The Weather</p>
+      <div class="row weather-block">
+        <div class="display-table">
+          <div class="display-table-cell skycon-display">
+            <canvas id="icon1" width="128" height="128"></canvas>
+          </div>
+          <div class="display-table-cell">
+            <p class="weather-word" id="weather">The Weather</p>
+          </div>
         </div>
       </div>
       <div class="row F-to-C">
